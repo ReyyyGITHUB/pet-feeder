@@ -7,8 +7,7 @@ export default function ManualFeedSection() {
         <span className="text-[26px] leading-none">F</span>
         <span className="text-[18px] leading-[1.2] font-semibold text-on-primary">Manual Feed</span>
       </CTAButton>
-
-      <p className="text-[16px] leading-[1.35] mt-2 text-on-surface/80">Dispenses 1 portion (50g)</p>
+      <p className="mt-3 text-[14px] leading-[1.2] text-black/60">Tap to feed your fish manually</p>
     </section>
   );
 }

@@ -27,10 +27,10 @@ export default function CTAButton(props: CTAButtonProps) {
 
   const variantClass =
     variant === "secondary"
-      ? "btn-secondary"
+      ? "btn-secondary transition-colors duration-200 hover:brightness-95 active:brightness-90"
       : variant === "tertiary"
-        ? "btn-tertiary"
-        : "bg-white text-primary";
+        ? "btn-tertiary transition-colors duration-200 hover:text-[#00345a] active:text-[#002846]"
+        : "bg-white text-primary transition-colors duration-200 hover:bg-[#eaf2ff] active:bg-[#d9e8ff]";
 
   const mergedClassName = `btn inline-flex items-center justify-center ${variantClass} ${className}`.trim();
 
@@ -52,3 +52,4 @@ export default function CTAButton(props: CTAButtonProps) {
     </button>
   );
 }
+
