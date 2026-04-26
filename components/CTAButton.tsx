@@ -30,7 +30,7 @@ export default function CTAButton(props: CTAButtonProps) {
       ? "btn-secondary"
       : variant === "tertiary"
         ? "btn-tertiary"
-        : "btn-primary";
+        : "bg-white text-primary";
 
   const mergedClassName = `btn inline-flex items-center justify-center ${variantClass} ${className}`.trim();
 
@@ -52,4 +52,3 @@ export default function CTAButton(props: CTAButtonProps) {
     </button>
   );
 }
-
